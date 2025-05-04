@@ -16,7 +16,8 @@ pygame.display.set_caption("3-3&3-5 Presents")    # タイトルを作成
 #     except:
 #         print(f"{index+1}\t{fontname} is not available!!")
 
-font1 = pygame.font.SysFont("ヒラキノ丸コpronw4", 150)
+# font1 = pygame.font.SysFont("ヒラキノ丸コpronw4", 150)
+font1 = pygame.font.SysFont("ipaex", 150)
 font2 = pygame.font.SysFont(None, 150)
 text1 = font1.render("日本語", True, (255,0,0))
 text2 = font2.render("Default", True, (255,0,0))
